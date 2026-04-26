@@ -102,5 +102,5 @@ theme: fluid
 # Hexo deploy config
 deploy:
   type: git
-  repo: https://github.com/xhd-xhd/xhd-xhd.github.io.git
+  repo: https://xhd-xhd@github.com/xhd-xhd/xhd-xhd.github.io.git
   branch: master
