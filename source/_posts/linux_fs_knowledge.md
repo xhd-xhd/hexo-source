@@ -1,7 +1,7 @@
 ---
 title: linux文件系统知识
 tags: [linux, 文件系统]
-index_img: /img/Dolphin.png
+index_img: /img/linux_alpha/Dolphin.png
 date: 2026-04-26 23:00:00
 author: xhd
 ---
