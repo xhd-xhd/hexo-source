@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://xhd-xhd.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -90,6 +90,7 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - .nojekyll
 exclude:
 ignore:
 
@@ -104,3 +105,4 @@ deploy:
   type: git
   repo: https://xhd-xhd@github.com/xhd-xhd/xhd-xhd.github.io.git
   branch: master
+  ignore_hidden: false
