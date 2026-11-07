@@ -1,10 +1,9 @@
 ---
-title: 从 ioctl 到 VM Exit：我把 KVM 虚拟化从头问了一遍
+title: 初识虚拟机技术KVM
 date: 2026-11-07 19:30:00
 tags: [Linux, 虚拟化, KVM, QEMU]
 categories:
   - Linux内核
-index_img: /img/else/KVM1.png
 author: xhd
 ---
 
