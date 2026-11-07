@@ -492,7 +492,7 @@ index:
   # 头图黑色蒙版的不透明度，available: 0 - 1.0，1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
   # Available: 0 - 1.0
-  banner_mask_alpha: 0.3slog
+  banner_mask_alpha: 0.3
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
@@ -501,7 +501,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示，支持列表格式来实现随机选择一行文字显示
     # If empty, text based on `subtitle` in hexo config, support list format to random selection of a row for display
-    text: "An elegant theme for Hexo"
+    text: "嵌入式软件流水账"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -982,14 +982,14 @@ about:
   enable: true
   banner_img: /img/default.png
   banner_img_height: 60
-  banner_mask_alpha: 0.3about/
+  banner_mask_alpha: 0.3
   avatar: /img/about/avatar_gy.jpg
   name: "xhd"
   intro: "记录嵌入式学习和开发"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/xhd-xhd", tip: "GitHub" }
 
 
 #---------------------------
@@ -1024,7 +1024,9 @@ page404:
 # Links Page
 #---------------------------
 links:
-  enable: true
+  # 关闭：导航栏未挂“友链”入口，页面内容还是主题自带的示例链接。
+  # 以后要开：改回 true，把下面 items 换成真实友链，并在 navbar.menu 里取消 links 那行注释。
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
